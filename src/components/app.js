@@ -1,9 +1,10 @@
-import React, { Component } from 'react';
+import React, {Component} from 'react';
+import ShowCounter from "../containers/ShowCounter";
 
 export default class App extends Component {
-  render() {
-    return (
-      <div>React simple starter</div>
-    );
-  }
+    render() {
+        return (
+            <ShowCounter/>
+        );
+    }
 }
