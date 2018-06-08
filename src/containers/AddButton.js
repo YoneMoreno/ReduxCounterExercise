@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {bindActionCreators} from 'redux';
-import add from '../actions/index';
+import {add} from '../actions/index';
 
 class AddButton extends Component {
     render() {
