@@ -11,6 +11,7 @@ class MinusButton extends Component {
     }
 }
 
+
 function mapDispatchToProps(dispatch) {
     return bindActionCreators({minus: minus}, dispatch);
 }
